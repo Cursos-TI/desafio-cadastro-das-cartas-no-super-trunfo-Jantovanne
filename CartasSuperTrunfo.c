@@ -7,7 +7,17 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    //declaração de variaveis.
+    int populacao, pontosTuristicos;
+char estado;
+char codigocarta[4];
+char NomeCidade[50];
+float PIB, area;
+
+//solicitação de inserção de dados.
+printf("Digite a inicial do estado da sua carta: ");
+sacnf("%s\n", estado);
+     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
